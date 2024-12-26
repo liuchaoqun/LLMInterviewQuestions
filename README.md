@@ -8,7 +8,7 @@ This repository contains over 100 interview questions for Large Language Models 
 
 1. [Prompt Engineering & Basics of LLM](#prompt-engineering--basics-of-llm)
 2. [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
-3. [Chunking Strategies](#chunking-strategies)
+3. [Chunking](#chunking-strategies)
 4. [Embedding Models](#embedding-models)
 5. [Internal Working of Vector Databases](#internal-working-of-vector-databases)
 6. [Advanced Search Algorithms](#advanced-search-algorithms)
@@ -20,7 +20,8 @@ This repository contains over 100 interview questions for Large Language Models 
 12. [Deployment of LLM](#deployment-of-llm)
 13. [Agent-Based System](#agent-based-system)
 14. [Prompt Hacking](#prompt-hacking)
-15. [Case Study & Scenario-Based Questions](#case-study--scenario-based-questions)
+15. [Miscellaneous](#miscellaneous)
+16. [Case Studies](#case-study--scenario-based-questions)
 
 ---
 
@@ -59,7 +60,7 @@ This repository contains over 100 interview questions for Large Language Models 
 
 ---
 
-## Chunking Strategies
+## Chunking 
 
 - **What is chunking, and why do we chunk our data?**
 - **What factors influence chunk size?**
@@ -128,10 +129,18 @@ This repository contains over 100 interview questions for Large Language Models 
 
 ## Language Models Internal Working
 
-- **Detailed explanation of Transformer architecture and self-attention.**
-- **Advantages of using a transformer over LSTM.**
-- **How to increase the context length of an LLM?**
-- **What is a mixture of expert models?**
+- **Can you provide a detailed explanation of the concept of self-attention?**
+- **Explain the disadvantages of the self-attention mechanism and how can you overcome it.**
+- **What is positional encoding?**
+- **Explain Transformer architecture in detail.**
+- **What are some of the advantages of using a transformer instead of LSTM?**
+- **What is the difference between local attention and global attention?**
+- **What makes transformers heavy on computation and memory, and how can we address this?**
+- **How can you increase the context length of an LLM?**
+- **If I have a vocabulary of 100K words/tokens, how can I optimize transformer architecture?**
+- **A large vocabulary can cause computation issues and a small vocabulary can cause OOV issues, what approach you would use to find the best balance of vocabulary?**
+- **Explain different types of LLM architecture and which type of architecture is best for which task?**
+
 
 [Back to Top](#table-of-contents)
 
@@ -140,9 +149,16 @@ This repository contains over 100 interview questions for Large Language Models 
 ## Supervised Fine-Tuning of LLM
 
 - **What is fine-tuning, and why is it needed?**
+- **Which scenario do we need to fine-tune LLM?**
+- **How to make the decision of fine-tuning?**
+- **How do you improve the model to answer only if there is sufficient context for doing so?**
 - **How to create fine-tuning datasets for Q&A?**
-- **What are different re-parameterized methods for fine-tuning?**
+- **How to set hyperparameters for fine-tuning?**
+- **How to estimate infrastructure requirements for fine-tuning LLM?**
+- **How do you fine-tune LLM on consumer hardware?**
+- **What are the different categories of the PEFT method?**
 - **What is catastrophic forgetting in LLMs?**
+- **What are different re-parameterized methods for fine-tuning?**
 
 [Back to Top](#table-of-contents)
 
@@ -150,9 +166,10 @@ This repository contains over 100 interview questions for Large Language Models 
 
 ## Preference Alignment (RLHF/DPO)
 
+- **At which stage you will decide to go for the Preference alignment type of method rather than SFT?**
 - **What is RLHF, and how is it used?**
-- **Explain different preference alignment methods.**
 - **What is the reward hacking issue in RLHF?**
+- **Explain different preference alignment methods.**
 
 [Back to Top](#table-of-contents)
 
@@ -160,8 +177,10 @@ This repository contains over 100 interview questions for Large Language Models 
 
 ## Evaluation of LLM System
 
+- **How do you evaluate the best LLM model for your use case?**
 - **How to evaluate RAG-based systems?**
 - **What are different metrics for evaluating LLMs?**
+- **Explain the Chain of Verification.**
 
 [Back to Top](#table-of-contents)
 
@@ -179,6 +198,8 @@ This repository contains over 100 interview questions for Large Language Models 
 ## Deployment of LLM
 
 - **Why does quantization not decrease the accuracy of LLM?**
+- **What are the techniques by which you can optimize the inference of LLM for higher throughput?**
+- **How to accelerate response time of model without attention approximation like group query attention?**
 
 [Back to Top](#table-of-contents)
 
@@ -186,9 +207,12 @@ This repository contains over 100 interview questions for Large Language Models 
 
 ## Agent-Based System
 
-- **What are agents, and why are they needed?**
-- **Explain ReAct prompting with examples.**
-- **Difference between OpenAI functions and LangChain agents.**
+- **Explain the basic concepts of an agent and the types of strategies available to implement agents**
+- **Why do we need agents and what are some common strategies to implement agents?**
+- **Explain ReAct prompting with a code example and its advantages**
+- **Explain Plan and Execute prompting strategy**
+- **Explain OpenAI functions strategy with code examples**
+- **Explain the difference between OpenAI functions vs LangChain Agents**
 
 [Back to Top](#table-of-contents)
 
@@ -196,16 +220,34 @@ This repository contains over 100 interview questions for Large Language Models 
 
 ## Prompt Hacking
 
-- **What is prompt hacking, and why is it important?**
-- **What are the different defense tactics against prompt hacking?**
+- **What is prompt hacking and why should we bother about it?**
+- **What are the different types of prompt hacking?**
+- **What are the different defense tactics from prompt hacking?**
 
 [Back to Top](#table-of-contents)
 
 ---
 
-## Case Study & Scenario-Based Questions
+## Miscellaneous
 
-- **How to optimize the cost of an overall LLM system?**
+- **How to optimize cost of overall LLM System?**
+- **What are mixture of expert models (MoE)?**
+- **How to build production grade RAG system, explain each component in detail ?**
+- **What is FP8 variable and what are its advantages of it**
+- **How to train LLM with low precision training without compromising on accuracy ?**
+- **How to calculate size of KV cache**
+- **Explain dimension of each layer in multi headed transformation attention block**
+- **How do you make sure that attention layer focuses on the right part of the input?**
+
+
+[Back to Top](#table-of-contents)
+
+---
+
+## Case Studies
+
+- **Case Study 1**: LLM Chat Assistant with dynamic context based on query
+- **Case Study 2**: Prompting Techniques
 
 [Back to Top](#table-of-contents)
 
