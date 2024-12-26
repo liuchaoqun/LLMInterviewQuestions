@@ -21,7 +21,7 @@ This repository contains over 100 interview questions for Large Language Models 
 13. [Agent-Based System](#agent-based-system)
 14. [Prompt Hacking](#prompt-hacking)
 15. [Miscellaneous](#miscellaneous)
-16. [Case Studies](#case-study--scenario-based-questions)
+16. [Case Studies](#case-studies)
 
 ---
 
