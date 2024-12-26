@@ -4,6 +4,9 @@ This repository contains over 100+ interview questions for Large Language Models
 
 ---
 
+![Image Description](interviewprep.jpg)
+
+---
 ## Table of Contents
 
 1. [Prompt Engineering & Basics of LLM](#prompt-engineering--basics-of-llm)
