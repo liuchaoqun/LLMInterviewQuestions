@@ -253,4 +253,4 @@ This repository contains over 100+ interview questions for Large Language Models
 
 ---
 
-*For more resources, visit [Mastering LLM](https://www.masteringllm.com).*
+*For answers for those questions please, visit [Mastering LLM](https://www.masteringllm.com/course/llm-interview-questions-and-answers?previouspage=allcourses&isenrolled=no#/home).*
