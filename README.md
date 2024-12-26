@@ -8,7 +8,7 @@ This repository contains over 100+ interview questions for Large Language Models
 
 1. [Prompt Engineering & Basics of LLM](#prompt-engineering--basics-of-llm)
 2. [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
-3. [Chunking](#chunking-strategies)
+3. [Chunking](#chunking)
 4. [Embedding Models](#embedding-models)
 5. [Internal Working of Vector Databases](#internal-working-of-vector-databases)
 6. [Advanced Search Algorithms](#advanced-search-algorithms)
