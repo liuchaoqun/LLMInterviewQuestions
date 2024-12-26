@@ -1,6 +1,6 @@
 # 100+ LLM Interview Questions for Top Companies
 
-This repository contains over 100 interview questions for Large Language Models (LLM) used by top companies like Google, NVIDIA, Meta, Microsoft, and Fortune 500 companies. Explore questions curated with insights from real-world scenarios, organized into 14 categories to facilitate learning and preparation.
+This repository contains over 100+ interview questions for Large Language Models (LLM) used by top companies like Google, NVIDIA, Meta, Microsoft, and Fortune 500 companies. Explore questions curated with insights from real-world scenarios, organized into 15 categories to facilitate learning and preparation.
 
 ---
 
