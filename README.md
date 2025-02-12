@@ -18,7 +18,7 @@ This repository contains over 100+ interview questions for Large Language Models
 
 1. [Prompt Engineering & Basics of LLM](#prompt-engineering--basics-of-llm)
 2. [Retrieval Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
-3. [Chunking](#chunking)
+3. [Document digitization & Chunking](#document-digitization-&-chunking)
 4. [Embedding Models](#embedding-models)
 5. [Internal Working of Vector Databases](#internal-working-of-vector-databases)
 6. [Advanced Search Algorithms](#advanced-search-algorithms)
@@ -70,12 +70,18 @@ This repository contains over 100+ interview questions for Large Language Models
 
 ---
 
-## Chunking 
+## Document digitization & Chunking 
 
 - **What is chunking, and why do we chunk our data?**
 - **What factors influence chunk size?**
 - **What are the different types of chunking methods?**
 - **How to find the ideal chunk size?**
+- **What is the best method to digitize and chunk complex documents like annual reports?**
+- **How to handle tables during chunking?**
+- **How do you handle very large table for better retrieval?**
+- **How to handle list item during chunking?**
+- **How do you build production grade document processing and indexing pipeline?**
+- **How to handle graphs & charts in RAG**
 
 [Back to Top](#table-of-contents)
 
