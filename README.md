@@ -37,7 +37,7 @@ This repository contains over 100+ interview questions for Large Language Models
 
 ## Prompt Engineering & Basics of LLM
 
-- **What is the difference between Predictive/Discriminative AI and Generative AI?**
+- **What is the difference between Predictive/Discriminative AI and Generative AI?** [answer](https://g.co/gemini/share/86805ba284f7)
 - **What is LLM, and how are LLMs trained?**
 - **What is a token in the language model?**
 - **How to estimate the cost of running SaaS-based and Open Source LLM models?**
