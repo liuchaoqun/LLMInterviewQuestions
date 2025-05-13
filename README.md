@@ -38,10 +38,10 @@ This repository contains over 100+ interview questions for Large Language Models
 ## Prompt Engineering & Basics of LLM
 
 - **What is the difference between Predictive/Discriminative AI and Generative AI?** [answer](https://g.co/gemini/share/86805ba284f7)
-- **What is LLM, and how are LLMs trained?**
-- **What is a token in the language model?**
-- **How to estimate the cost of running SaaS-based and Open Source LLM models?**
-- **Explain the Temperature parameter and how to set it.**
+- **What is LLM, and how are LLMs trained?** [answer](https://g.co/gemini/share/621456cf701a)
+- **What is a token in the language model?** [answer](https://g.co/gemini/share/327d3ddd03bb)
+- **How to estimate the cost of running SaaS-based and Open Source LLM models?** [answer](https://g.co/gemini/share/a6f150bf5780)
+- **Explain the Temperature parameter and how to set it.** [answer](https://g.co/gemini/share/af838ec80c5c)
 - **What are different decoding strategies for picking output tokens?**
 - **What are different ways you can define stopping criteria in large language model?**
 - **How to use stop sequences in LLMs?**
