@@ -42,11 +42,13 @@ This repository contains over 100+ interview questions for Large Language Models
 - **What is a token in the language model?** [answer](https://g.co/gemini/share/327d3ddd03bb)
 - **How to estimate the cost of running SaaS-based and Open Source LLM models?** [answer](https://g.co/gemini/share/a6f150bf5780)
 - **Explain the Temperature parameter and how to set it.** [answer](https://g.co/gemini/share/af838ec80c5c)
-- **What are different decoding strategies for picking output tokens?**
-- **What are different ways you can define stopping criteria in large language model?**
-- **How to use stop sequences in LLMs?**
+
+- **What are different decoding strategies for picking output tokens?** [answer](https://g.co/gemini/share/8e8459bd7654)
+- **What are different ways you can define stopping criteria in large language model?**[answer](https://g.co/gemini/share/f389e79b9bf6)
+- **How to use stop sequences in LLMs?** [answer](https://g.co/gemini/share/dd740c6b29ff)
 - **Explain the basic structure prompt engineering.**
 - **Explain in-context learning**
+  
 - **Explain type of prompt engineering**
 - **What are some of the aspect to keep in mind while using few-shots prompting?**
 - **What are certain strategies to write good prompt?**
