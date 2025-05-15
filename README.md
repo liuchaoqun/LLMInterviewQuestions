@@ -46,10 +46,10 @@ This repository contains over 100+ interview questions for Large Language Models
 - **What are different decoding strategies for picking output tokens?** [answer](https://g.co/gemini/share/8e8459bd7654)
 - **What are different ways you can define stopping criteria in large language model?**[answer](https://g.co/gemini/share/f389e79b9bf6)
 - **How to use stop sequences in LLMs?** [answer](https://g.co/gemini/share/dd740c6b29ff)
-- **Explain the basic structure prompt engineering.**
-- **Explain in-context learning**
+- **Explain the basic structure prompt engineering.** [answer](https://g.co/gemini/share/a4284f72a63b)
+- **Explain in-context learning** [answer](https://g.co/gemini/share/d1c387589129)
   
-- **Explain type of prompt engineering**
+- **Explain type of prompt engineering** 
 - **What are some of the aspect to keep in mind while using few-shots prompting?**
 - **What are certain strategies to write good prompt?**
 - **What is hallucination, and how can it be controlled using prompt engineering?**
